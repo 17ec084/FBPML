@@ -1,4 +1,3 @@
-/*
 FBPML(Fill-in-the-Brank Problem Markup Language)
 
 <FBPML> ::= ("---" <文>)*
@@ -16,10 +15,3 @@ FBPML(Fill-in-the-Brank Problem Markup Language)
     "</?[0-9]+ +[^/>]"|
     "</?[0-9]+ >"
 )+
-*/
-
-
-「abcまたはdefが含まれない文字列」
-→「"(
-([^ad])|([ad][^be])|([ad][be][^cf])
-)+"」
